@@ -1,0 +1,5 @@
+ module CMyModule [system] {
+    header "/usr/include/GLFW/glfw3.h"
+    link "lglfw"
+    export *
+}
